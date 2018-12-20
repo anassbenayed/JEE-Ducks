@@ -33,7 +33,7 @@ table, th, td {
 	void connect() throws Exception {
 		Class c = Class.forName("com.mysql.jdbc.Driver");
 		conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/pizza_delivery", "root", "");
-		// System.out.println("connected..");
+		System.out.println("connected..");
 	}
 
 	void display(ArrayList<String> f_id) throws Exception {
@@ -51,7 +51,7 @@ table, th, td {
 			pr[k] = res.getString("pr");
 			nm[k] = res.getString("nm");
 			typ[k] = res.getString("typ");
-			//System.out.println(size[k]+pr[k]+nm[k]+typ[k]);
+			System.out.println("ExecuteQ works");
 		}
 	}
         %>

@@ -34,7 +34,7 @@ if(result.equals("user")){
 <% }
 else{
 	%>
-	<jsp:forward page="error.jsp"></jsp:forward>
+<jsp:forward page="error.jsp"></jsp:forward>
 <%}
 %>
 

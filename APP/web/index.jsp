@@ -33,7 +33,7 @@
 </style>
 </head>
 <body>
-<form action ="login.jsp">
+<form action ="task.jsp">
 <section class="billboard light">
 		<header class="wrapper dark">
 			<a href="#"><img class="logo" src="" alt=""/></a>
@@ -43,7 +43,7 @@
           <ul>
            <li><b><a href="index.html" class="active" ><strong>Home</a></li>
             <li><a href="index.jsp" ><strong>Login</a></li>
-            <li><b><a href="index.jsp" ><strong>Order Online</strong></a></li>
+            <li><b><a href="index.jsp" ><strong>Task</strong></a></li>
             <li><b><a href="Registerform.jsp" s><strong>Register</strong></a></li>
             <li><b><a href="contact_us.html" class="last_menu" ><strong>Contact Us</strong></a></b></li>
           </ul>
@@ -51,12 +51,7 @@
           <div class="clear"></div>
         </div>
         
-		</header>
-		
-		
-		
-		
-		
+		</header>		
 <center>
 <div id="section">	
 <li class="animated wow fadeInDown">
